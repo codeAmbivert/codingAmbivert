@@ -1,6 +1,6 @@
 <h1>Hello there!</h1>
 <br>
-<h3>My name is <a href="https://twitter.com/iam_nuelpraiz" traget="_blank">Titilope Chisom</a></h3>
+<h3>I'm <a href="https://twitter.com/iam_nuelpraiz" traget="_blank">Titilope Chisom</a></h3>
 <br>
 <ul>
   <li>Twitter: <a href="https://twitter.com/iam_nuelpraiz" target="_blank">@iam_nuelpraiz</a></li>
