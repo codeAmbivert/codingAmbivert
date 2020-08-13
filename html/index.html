@@ -4,26 +4,66 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>codingAmbivert</title>
+ <link rel="icon" href="../img/Logo.png">
  <link rel="stylesheet" href="../css/style.css">
  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+ <script src="../js/all.js"></script>
 </head>
 <body>
  <!-- HEADER -->
- <div id="header">
-  <nav>
-   <div>
-   <a href="#"><img src="../img/Logo.png" alt="logo" id="logo"></a>
-  </div>
-  <div>
-   <ul class="nav-link">
+ <header id="header">
+  <img src="../img/Logo.png" alt="logo" id="logo">
+  <h1 class="nav-btn" onclick="toggleClass()">&#9776;</h1>
+  
+  <ul>
+   <li><a href="#">HOME</a></li>
+   <li><a href="#">ABOUT</a></li>
+   <li><a href="skills">SKILLS</a></li>
+   <li><a href="#">CONTACT</a></li>
+  </ul>
+ </header> 
+  <nav class="nav-display">
+   <ul>
     <li><a href="#">HOME</a></li>
-    <li><a href="#">PROJECTS</a></li>
-    <li><a href="#">BLOG</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="./index.html/skills">SKILLS</a></li>
+    <li><a href="#">CONTACT</a></li>
    </ul>
-  </div>
- </nav>
- </div>
- <div class="linear-auto"></div>
+  </nav>
  <!-- END OF HEADER -->
+
+ <!-- MAIN -->
+ <main>
+  <!-- about -->
+  <div id="about">
+   <div>
+   <img src="../img/PIC.jpg" alt="">
+  </div>
+   <div>
+    <h1>Hello, I'm Titilope Chisom</h1>
+    <h2>I LOVE : </h2>
+    <h3 style="color:red ;">Programming</h3>
+    <h3 style="color: green;">Tea</h3>
+    <h3 style="color: blue;">Gaming</h3>
+    <h3 style="color: purple;">Music</h3>
+   </div>
+  </div>
+  <!-- end of about -->
+
+  <!-- skills -->
+  <div id="skills">
+   <h2>Skills Set</h2>
+   <div class="icons">
+   <i class="fab fa-html5 fa-5x html" baria-hidden="true"></i>
+   <i class="fab fa-css3 fa-5x css" baria-hidden="true"></i>
+   <i class="fab fa-bootstrap fa-5x bs" baria-hidden="true"></i>
+   <i class="fab fa-js fa-5x js" baria-hidden="true"></i>
+  </div>
+  </div>
+  <!-- end of skills -->
+ </main>
+ <!-- END OF MAIN -->
+
+ <script src="../js/script.js"></script>
 </body>
 </html>
