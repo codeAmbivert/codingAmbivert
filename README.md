@@ -1,6 +1,6 @@
 <h1>Hello there!</h1>
 <br>
-<h3>I'm <a href="https://github.com/codingAmbivert" target="_blank">Titilope Chisom/a></h3>
+<h3>I'm <a href="https://github.com/codingAmbivert" target="_blank">Titilope Chisom</a></h3>
 <br>
 <ul>
   <li>Twitter: <a href="https://twitter.com/codingAmbivert" target="_blank">@codingAmbivert</a></li>
